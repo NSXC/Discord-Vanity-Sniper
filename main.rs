@@ -60,7 +60,7 @@ fn check_vanity(id: String, vanity: String, token: String) { //check function
                                     println!("Failed");
                                 }
                             },
-                            200 => println!("Vanity {} is taken.", vanity),
+                            200 => println!("Vanity {} is taken", vanity),
                             _ => println!("Error checking vanity {}", vanity),
                         }
                     },
