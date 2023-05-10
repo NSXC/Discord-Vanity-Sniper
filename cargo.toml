@@ -1,0 +1,9 @@
+
+
+[dependencies]
+reqwest = { version = "YOUR VER HERE", features = ["blocking"] }
+serde_json = "YOUR VER HERE"
+
+[dependencies.threadpool]
+version = "THREAD VER HERE"
+features = ["serde", "num_cpus"]
