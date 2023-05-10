@@ -7,7 +7,7 @@ fn main() {
     let vanity = std::io::stdin().read_line(&mut String::new()).unwrap().trim().to_owned();
     let token = std::io::stdin().read_line(&mut String::new()).unwrap().trim().to_owned();
 
-    let mut threads = Vec::new();
+    let mut threads = Vec::new(); // use 10 threads for this user can increase on compile
     for _ in 0..10 {
         let id = id.clone();
         let vanity = vanity.clone();
